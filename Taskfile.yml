@@ -1,0 +1,19 @@
+version: '3'
+
+tasks:
+  setup:
+    desc: Setup
+    cmds:
+      - composer install
+  run:
+    desc: Run the binary
+    env:
+      XDEBUG_MODE: off
+    cmds:
+      - php ./main.php
+  test:
+    desc: Run the tests
+    env:
+      XDEBUG_MODE: off
+    cmds:
+      - ./vendor/bin/phpunit tests --testdox

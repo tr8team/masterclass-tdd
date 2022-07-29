@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Unit Test" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+    <CommandLine parameters="./vendor/bin/paratest_for_phpstorm">
+      <envs>
+        <env name="XDEBUG_MODE" value="off" />
+      </envs>
+    </CommandLine>
+    <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" coverage_engine="PCov" directory="./tests" scope="XML" options="--stop-on-failure" use_alternative_configuration_file="true" />
+    <method v="2" />
+  </configuration>
+</component>

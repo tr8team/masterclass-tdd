@@ -1,0 +1,13 @@
+{
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "brianium/paratest": "^6.6",
+        "codeception/specify": "^2.0",
+        "codeception/verify": "^2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}

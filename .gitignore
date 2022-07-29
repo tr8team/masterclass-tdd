@@ -1,0 +1,84 @@
+# TR8
+/storage/firebase_credentials.json
+/storage/apple_key.p8
+
+# Nix
+.direnv
+
+# Secrets
+auth.json
+
+# Jetbrains IDE
+## User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+.idea/
+
+## PhpStorm+iml Patch
+## Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-249601023
+*.iml
+modules.xml
+.idea/misc.xml
+*.ipr
+
+## Generated files
+.idea/**/contentModel.xml
+
+## Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# Ignore all local history of files
+.history
+
+# Laravel Default
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/cloudfront_private_key
+/vendor
+.env
+.env.*
+!.env.testing
+!.env.example
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# SFTP
+.rnd
+
+# Vim
+*.swp
+
+# Redis
+dump.rdb
+
+# Local
+storage/app/.DS_Store
+
+.php-cs-fixer.cache
+/public/vendor/horizon
+
+# ci
+report.xml
+coverage.xml
+
+tmp
